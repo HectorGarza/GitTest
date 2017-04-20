@@ -23,7 +23,8 @@ public class Employee {
     private boolean married;
     private int numOfChildren;
     private double grossSalary;
-     DecimalFormat format = new DecimalFormat("#.00");
+    public boolean madeChanges = true;
+    DecimalFormat format = new DecimalFormat("#.00");
  
     public Employee()
     {}
